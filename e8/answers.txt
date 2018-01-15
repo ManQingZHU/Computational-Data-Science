@@ -1,0 +1,6 @@
+1. 
+The k-nearest neighbours classifier using LAB colour does the best job. I think it can produce a very reasonable result because KNN makes prediction based on the color of neighbours, which matches the properties of colour space very well. In the colour space, the colour changes slowly and the boundary between two colours are vague.
+
+2.
+I think the model is making reasonable mistake. From the result of "weather_clusters", we can see that there doesn't exist a cluster that only contains one city. The weather condition of some cities are pretty much similar.
+Well, in my view, the visibility, wind, pressure and humidity are useful weather features.
