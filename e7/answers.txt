@@ -1,0 +1,5 @@
+1.  No, I don't think so. The shape in the histogram doesn't look normal. I tried stats.normaltest() and the p value indicates that the data is far from being normal. But I still believe that the ratings are increasing. 
+
+When I plotted the residual data in the graph, I found the observed values are getting closer to the predicted values. Under this situation, it doesn't matter that the residuals are not normal distributed. The predicted values are increasing so the rating are indeed increasing. 
+
+2. Yes, I think so. By using linear regression, we can a better prediction that is much closer to the truth. And it can be seen from the figure that the Kalman filter did a good job. The peaks are reserved and there are some very small fluctuations. It's very similar to what will happen in the real world.
