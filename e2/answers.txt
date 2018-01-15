@@ -1,0 +1,6 @@
+1.
+The result of data['timestamp']*fit.slope + fit.intercept is the best-fit line. Recall that the mathematical function "y = kx + b" represents a line. In this case, data['timestamp'] is the x-axis values, fit.slope is the k, fit.intercept is the b, and data['rate'] is the y-axis values. we get the value of fit.slope and fit.intercept using linregress function.
+
+2.
+It's because that the data['timestamp'] value is created based on  data['created_at']. In the linear regression, the slope and intercept are also calculated based on the y-axis values data['rate'] and the x-axis values data['timestamp'], which is the same x-axis as data['created_at'].
+
