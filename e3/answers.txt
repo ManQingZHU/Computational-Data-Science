@@ -1,0 +1,5 @@
+1.
+I think I got a better result with Kalman smoothing. LOWESS tends to ignore outliers when dealing with large amount of data. For instance, there should be three peaks of CPU temperature between 05-24 23 and 05-25 01. However, LOWESS only retrieves one of them.
+
+2.
+If the course and speed data are not calculated from the latitude/longitude data, they should be of great help of improving our data cleaning work. The course data indicates the direction of the position in the next timestamp. The speed data indicates the distance to the position in the next timestamp. These can be used to figure out the transition_matrices and transition_covariance.
