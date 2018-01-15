@@ -1,0 +1,13 @@
+1. 
+Well, I think we are p-hacking. Because the original question is "do people search more with the new design?" We actually changed our problem after tests failed.
+
+Not very comfortable. To be honest, I doubted it because in another test for the similar research direction, the p value is bigger than 0.05.
+
+2. 
+For 7 different sorting implementations, 21 tests are necessary.
+
+The probability of having all conclusions correct is (1-0.05)^21, which is approximately 34.06%.
+
+3.
+From the fastest to the slowest:
+qs1 -> partition_sort -> qs4 and qs5 (can't distinguish) -> qs2 and qs3 (can't distinguish)   -> merge1
