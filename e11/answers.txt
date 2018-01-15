@@ -1,0 +1,17 @@
+1. 
+I have cached the original data which is read from the json file. If I didn't use cache(), the whole collection of comments will be read in again when I tried to join the average score to the comments.
+
+Besides, I cached the intermediate data with relative score for every comments. There is a step where I joined it to the data with the max relative score for each subreddit. If I didn't use cache(), it would spend some time computing to get the intermediate data again.
+
+2.
+Marking DataFrames for broadcast indeed decreases the run time significantly. 
+
+Before using broadcast, the run time of "best author" program is:
+real	0m45.512s
+user	0m31.992s
+sys		0m1.604s
+
+After using broadcast, the run time is:
+real	0m35.219s
+user	0m25.296s
+sys		0m1.316s
