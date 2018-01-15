@@ -1,0 +1,7 @@
+1. I found that Pandas is much easier to work with. And the code written with Pandas is easier to read. I am a newbie for data analysis. In my view, Pandas is more friendly. Compared with NumPy, it's more informative. Using Pandas, I will not get lost in the data but rather know what I am doing.
+
+2.
+pivot_months_pandas: 21.3 ms +/- 1.16 ms per loop
+pivot_months_loops: 561 ms +/- 12.4 ms per loop
+
+Pandas library is using C based code, which is much more efficient than pure Python code.
