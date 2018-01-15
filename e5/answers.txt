@@ -1,0 +1,24 @@
+1. 
+the transformation from x to sqrt(x).
+
+2.
+original T-test:
+Assuming the condition of normal distributions with equal variances is satisfied, it's more likely that the average comment number per day on weekdays, based on the data of every single day in 2012 and 2013,  is different from that on weekends.
+
+transformed data T-test:
+Assuming the condition of normal distributions with equal variances is satisfied, it's more likely that the average comment number per day on weekdays, based on the data of every single day in 2012 and 2013,  is different from that on weekends.
+
+by-week test:
+It's more likely that the average of the average comment number per day in a week, based on the data of every week in 2012 and 2013, on weekdays is different from that on weekends.
+
+Mann-Whitney test:
+It's more likely that the shape of the distribution of comment number on weekdays, based on the data of every single day in 2012 and 2013,  is different from that on weekends.
+
+3.
+Personally, I think the result of the by-week test is the most appropriate one to answer the original question. 
+On the one hand, you can't expect that the data is perfectly normal distributed with equal variances, even if you can make some transformation. Thus, the result of original T-test and transformed data T-test is not very powerful. Besides, whether the result of Mann-Whitney test approves to the null hypothesis or not, it's possible that the two distributions are totally different. For instance, consider the distributions [0.1 0.2 0.3 0.4] and [1 2 3 4]. Thus, it's not good enough.
+On the other hand, the average of the weekly average comment number per day can be seemed as the yearly averge number if the comment number of every day is independent. And it follows the normal distribution.
+That's why I feel like that.
+
+4.
+On average weekdays.
