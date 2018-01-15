@@ -1,0 +1,5 @@
+1.
+I don't think so. There does not exit a strong relationship between the population density and temperature. As it's shown in the output figure, the population density varies from approximately 7000 to around 500 people/km^2 when the average max temperature is around 20 Celsius degree. However, maybe we can conclude that the population density in the area with extreme average max temperature is usually less than 2000 people/km^2.
+
+2.
+I think the reason is that working with compressed data can greatly reduce the overhead doing reading and writing operations, given the speed of memory is much slower that CPU. 
